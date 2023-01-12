@@ -11,11 +11,6 @@ function App() {
       <Card/>
       <Card/>
       </div>
-      <div className='linha'>
-      <Card/>
-      <Card/>
-      <Card/>
-      </div>
     </div>
   );
 }
