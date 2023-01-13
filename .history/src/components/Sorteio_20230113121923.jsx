@@ -1,9 +1,9 @@
 import { connect } from "react-redux"
 import Card from "./Card"
 
-const Sorteio = props => {
-    const { min, max } = props.numeros
-    const aleatorio = parseInt(Math.random() * (max - min)) + min
+const Sorteio =  props => {
+    const {min, max} = props.numeros
+    const aleatorio = parseInt(Math.random()*(max-min)) + min
     return (
         <Card title="Sorteio entre os Números" purple>
             <div>
@@ -16,8 +16,8 @@ const Sorteio = props => {
     )
 }
 
-const mapStateToProps = state => {
-    return {
+const mapStateToProps = state =>{
+    return{
         numeros: state.numeros
     }
 }

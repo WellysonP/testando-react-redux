@@ -1,5 +1,5 @@
 import { connect } from "react-redux"
-import { alterarNumeroMaximo, alterarNumeroMinimo } from "../store/actions/numeros"
+import { alterarNumeroMinimo } from "../store/actions/numeros"
 import Card from "./Card"
 import "./Intervalo.css"
 
