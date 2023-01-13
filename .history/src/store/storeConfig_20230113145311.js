@@ -7,7 +7,8 @@ const reducers = combineReducers({
 })
 
 function storeConfig() {
-    return createStore(reducers)
+    // return configureStore(reducers)
+    return configureStore(reducers)
 }
 
 export default storeConfig
